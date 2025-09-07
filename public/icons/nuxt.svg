@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32" viewBox="0 0 96 32" role="img" aria-label="Nuxt logo">
+  <rect width="96" height="32" fill="none"/>
+  <g transform="translate(48,16)">
+    <g transform="translate(-18,-10)">
+      <path d="M0 20 L9 0 L18 20 Z" fill="none" stroke="#00DC82" stroke-width="2.5"/>
+      <path d="M6 20 L13.5 6 L21 20 Z" fill="none" stroke="#00C48D" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

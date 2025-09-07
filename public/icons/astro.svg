@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32" viewBox="0 0 96 32" role="img" aria-label="Astro logo">
+  <rect width="96" height="32" fill="none"/>
+  <g transform="translate(48,16)">
+    <g transform="translate(-16,-12)">
+      <path d="M16 0 L28 24 L4 24 Z" fill="#1B1B1D"/>
+      <circle cx="16" cy="20" r="5" fill="#FF5D01"/>
+    </g>
+  </g>
+</svg>
