@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    image: ghcr.io/adminization/website:master
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped

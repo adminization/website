@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -25,9 +26,11 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-            Try Demo
-          </Button>
+          <Link href="https://demo.adminizer.org/adminizer" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+              Try Demo
+            </Button>
+          </Link>
           <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
             Documentation
           </Button>
