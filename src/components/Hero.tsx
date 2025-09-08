@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
 import Link from "next/link";
+import NpmVersionBadge from "@/components/NpmVersionBadge";
 
 const Hero = () => {
   return (
@@ -38,6 +39,11 @@ const Hero = () => {
             <Github className="mr-2 h-5 w-5" />
             GitHub
           </Button>
+        </div>
+
+        {/* NPM version badge */}
+        <div className="mt-6 flex justify-center">
+          <NpmVersionBadge name="adminizer" />
         </div>
       </div>
       
