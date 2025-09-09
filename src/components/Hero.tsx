@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
+import { Github, Send, Facebook } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
 import Link from "next/link";
 import NpmVersionBadge from "@/components/NpmVersionBadge";
@@ -32,13 +32,29 @@ const Hero = () => {
               Try Demo
             </Button>
           </Link>
-          <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
-            Documentation
-          </Button>
-          <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
-            <Github className="mr-2 h-5 w-5" />
-            GitHub
-          </Button>
+          <Link href="https://docs.adminizer.org/" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
+              Documentation
+            </Button>
+          </Link>
+          <Link href="https://github.com/adminization/adminizer" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
+              <Github className="mr-2 h-5 w-5" />
+              GitHub
+            </Button>
+          </Link>
+          <Link href="https://t.me/talks_adminizer" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
+              <Send className="mr-2 h-5 w-5" />
+              Telegram
+            </Button>
+          </Link>
+          <Link href="https://www.facebook.com/profile.php?id=61575683442665" target="_blank" rel="noopener noreferrer">
+            <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
+              <Facebook className="mr-2 h-5 w-5" />
+              Facebook
+            </Button>
+          </Link>
         </div>
 
         {/* NPM version badge */}
